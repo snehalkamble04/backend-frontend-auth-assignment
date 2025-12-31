@@ -1,0 +1,108 @@
+/* Global */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f6f8;
+  margin: 0;
+  padding: 0;
+}
+
+/* Center container */
+.container {
+  width: 100%;
+  max-width: 400px;
+  margin: 60px auto;
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Inputs */
+input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Buttons */
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #1976d2;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #125ca1;
+}
+
+/* Messages */
+.success {
+  color: green;
+  margin-top: 10px;
+}
+
+.error {
+  color: red;
+  margin-top: 10px;
+}
+
+/* Links */
+.link {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.link a {
+  color: #1976d2;
+  text-decoration: none;
+}
+
+/* Dashboard */
+.task-input {
+  display: flex;
+  gap: 10px;
+}
+
+.task-input input {
+  flex: 1;
+}
+
+.task-input button {
+  width: auto;
+  padding: 10px 15px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background: #f1f1f1;
+  padding: 10px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li button {
+  width: auto;
+  background-color: #d32f2f;
+}
+
+li button:hover {
+  background-color: #9a2424;
+}
